@@ -539,7 +539,7 @@ a:link {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .banner-text{
- font-size: 14px !important;
+ font-size: 12px !important;
  letter-spacing: 0.1rem;
   }
   .banner-text-2{
