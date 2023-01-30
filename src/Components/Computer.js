@@ -48,9 +48,7 @@ function useScroll() {
     
     return (
       <div>
-      <Player autoPlay loop muted>
-      <source src="assets/video2.mp4" />
-    </Player>
+      <img className='gif' src="/assets/computer service.gif" />
    <CommonIssues />
    <OutMotto />
    <OurTieups />

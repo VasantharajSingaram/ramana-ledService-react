@@ -51,7 +51,7 @@ export default function HOME() {
     
   return (
     <div>
-    <img src="/assets/computer service.gif" />
+    <img className='gif' src="/assets/led tv service.gif" />
  <CommonIssues />
  <OutMotto />
  <OurTieups />

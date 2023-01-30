@@ -47,7 +47,7 @@ export function Footer() {
             <ul className="social-icons">
               <li><a className="facebook" href="https://www.facebook.com/profile.php?id=100089835970067" target="_blank"><i className="fa-brands fa-facebook-f"></i></a></li>
               <li><a className="telegram" href="https://t.me/Ramana_Electronics" target="_blank"><i className="fa-brands fa-telegram"></i></a></li>
-              <li><a className="instagram" href="#" target="_blank"><i className="fa-brands fa-instagram"></i></a></li>
+              <li><a className="instagram" href="https://www.instagram.com/ramanaelectronics/" target="_blank"><i className="fa-brands fa-instagram"></i></a></li>
               <li><a className="phone" href="tel:9962424996"><i className="fa-solid fa-phone"></i></a></li>
               <li><a className="gmail" href="mailto:ramanaelectronicsolution@gmail.com" target="_blank"><i className="fa-solid fa-envelope"></i></a></li>
 
