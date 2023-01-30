@@ -540,16 +540,16 @@ a:link {
 @media only screen and (max-width: 600px) {
   .banner-text{
  font-size: 12px !important;
- letter-spacing: 0.1rem;
+ letter-spacing: 0.3rem;
   }
   .banner-text-2{
-    margin-top: 10px;
+    margin-top: 8px;
     font-size: 10px;
     letter-spacing: 0;
   }
   
   .banner-text-3{
-    margin-top: 16px;
+    margin-top: 15px;
     font-size: 10px;
   }
 } 
