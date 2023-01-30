@@ -24,6 +24,7 @@ import SkipPreviousIcon from '@mui/icons-material/SkipPrevious';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import SkipNextIcon from '@mui/icons-material/SkipNext';
 import TermsConditions from './Terms';
+import Carousel from 'react-bootstrap/Carousel';
 
 
 function useScroll() {
@@ -51,9 +52,30 @@ export default function HOME() {
     
   return (
     <div>
-    <div className='banner-contain'>
-    <img className='gif' src="/assets/led tv service.gif" />
-    <div className='banner-text'>
+    <Carousel fade>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="/assets/tv01.png"
+          alt="First slide"
+        />
+        <div className='banner-text'>
+        <p className='tracking-in-expand'>RAMANA ELECTRONICS</p>
+        </div>
+        <div className='banner-text-2'>
+        <p className='focus-in-expand '>-AUTHORIZED SERVICE CENTER-</p>
+        </div>
+        <div className='banner-text-3'>
+        <p className='text-focus-in'>LED TV SERVICE</p>
+        </div>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="/assets/tv02.png"
+          alt="Second slide"
+        />
+        <div className='banner-text'>
     <p className='tracking-in-expand'>RAMANA ELECTRONICS</p>
     </div>
     <div className='banner-text-2'>
@@ -62,7 +84,28 @@ export default function HOME() {
     <div className='banner-text-3'>
     <p className='text-focus-in'>LED TV SERVICE</p>
     </div>
-    </div>
+     
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="/assets/tv03.png"
+          alt="Third slide"
+        />
+        <div className='banner-text'>
+        <p className='tracking-in-expand'>RAMANA ELECTRONICS</p>
+        </div>
+        <div className='banner-text-2'>
+        <p className='focus-in-expand '>-AUTHORIZED SERVICE CENTER-</p>
+        </div>
+        <div className='banner-text-3'>
+        <p className='text-focus-in'>LED TV SERVICE</p>
+        </div>
+       
+      </Carousel.Item>
+    </Carousel>
+  
+   
  <CommonIssues />
  <OutMotto />
  <OurTieups />
@@ -77,7 +120,7 @@ function AboutUs(){
  
     const isVisible = useScroll();
     return (
-      <div>
+      <div className='about-us'>
         <div className="container">
         <div className="row tc-1">
         <div className="col mb-3">

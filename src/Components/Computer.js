@@ -22,6 +22,7 @@ import IconButton from '@mui/material/IconButton';
 import SkipPreviousIcon from '@mui/icons-material/SkipPrevious';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import SkipNextIcon from '@mui/icons-material/SkipNext';
+import Carousel from 'react-bootstrap/Carousel';
 
 function useScroll() {
     // Keep track of whether the element is visible
@@ -48,18 +49,58 @@ function useScroll() {
     
     return (
       <div>
-      <div className='banner-contain'>
-      <img className='gif' src="/assets/computer service.gif" />
-      <div className='banner-text'>
-      <p className='tracking-in-expand'>RAMANA ELECTRONICS</p>
-      </div>
-      <div className='banner-text-2'>
-      <p className='focus-in-expand '>-AUTHORIZED SERVICE CENTER-</p>
-      </div>
-      <div className='banner-text-3'>
-      <p className='text-focus-in'>COMPUTER SERVICE</p>
-      </div>
-      </div>
+      <Carousel fade>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="/assets/pc01.png"
+          alt="First slide"
+        />
+        <div className='banner-text'>
+        <p className='tracking-in-expand'>RAMANA ELECTRONICS</p>
+        </div>
+        <div className='banner-text-2'>
+        <p className='focus-in-expand '>-AUTHORIZED SERVICE CENTER-</p>
+        </div>
+        <div className='banner-text-3'>
+        <p className='text-focus-in'>COMPUTER SERVICE</p>
+        </div>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="/assets/pc02.png"
+          alt="Second slide"
+        />
+        <div className='banner-text'>
+    <p className='tracking-in-expand'>RAMANA ELECTRONICS</p>
+    </div>
+    <div className='banner-text-2'>
+    <p className='focus-in-expand '>-AUTHORIZED SERVICE CENTER-</p>
+    </div>
+    <div className='banner-text-3'>
+    <p className='text-focus-in'>COMPUTER SERVICE</p>
+    </div>
+     
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="/assets/pc03.png"
+          alt="Third slide"
+        />
+        <div className='banner-text'>
+        <p className='tracking-in-expand'>RAMANA ELECTRONICS</p>
+        </div>
+        <div className='banner-text-2'>
+        <p className='focus-in-expand '>-AUTHORIZED SERVICE CENTER-</p>
+        </div>
+        <div className='banner-text-3'>
+        <p className='text-focus-in'>COMPUTER SERVICE</p>
+        </div>
+       
+      </Carousel.Item>
+    </Carousel>
    <CommonIssues />
    <OutMotto />
    <OurTieups />

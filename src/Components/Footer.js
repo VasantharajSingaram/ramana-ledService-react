@@ -29,7 +29,7 @@ export function Footer() {
           <div className="col-6 col-md-3">
             <h6>Quick Links</h6>
             <ul className="footer-links">
-              <li><a href="tel:9962424100">Contact Us</a></li>
+              <li><a href="tel:9962424996">Contact Us</a></li>
              
               <li><Link to="/terms">Terms & Conditions</Link></li>
             </ul>

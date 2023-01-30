@@ -392,6 +392,7 @@
   }
   .company{
     margin-top: 100px;
+   
   }
   
   .special-margin{
@@ -534,6 +535,10 @@ a:link {
     transform: translate(-50%,-50%);
     text-align: center;
     color: #fff;
+}
+
+.about-us{
+  overflow-x: hidden;
 }
 
 /* Extra small devices (phones, 600px and down) */
