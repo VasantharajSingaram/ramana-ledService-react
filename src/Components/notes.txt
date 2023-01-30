@@ -1,0 +1,234 @@
+
+  <div className="col-12 ca-1">
+  <div className={`card list-cards swing-in-top-fwd-1 ${isVisible ? 'visible' : ''}`}>
+    <div className='card-body cb1'>
+     <div>
+      <p>LED/LCD TV Service (Per visit Inspection charge)</p>
+      </div>
+      <div>
+      <p>₹ 149</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div className="col-12 ca-1">
+<div className={`card list-cards swing-in-top-fwd-2 ${isVisible ? 'visible' : ''}`}>
+  <div className='card-body cb1'>
+   <div>
+    <p>TV wall mounting/TV installation - Above 40"</p>
+    </div>
+    <div>
+    <p>₹ 699</p>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<div className="col-12 ca-1">
+<div className={`card list-cards swing-in-top-fwd-3 ${isVisible ? 'visible' : ''}`}>
+  <div className='card-body cb1'>
+   <div>
+    <p>TV wall mounting/uninstallation - Below 40"</p>
+    </div>
+    <div>
+    <p>₹ 749</p>
+    </div>
+  </div>
+</div>
+</div>
+
+<div className="col-12 ca-1">
+<div className={`card list-cards swing-in-top-fwd-4 ${isVisible ? 'visible' : ''}`}>
+  <div className='card-body cb1'>
+   <div>
+    <p>CRT TV Service (Per visit Inspection charge)</p>
+    </div>
+    <div>
+    <p>₹ 149</p>
+    </div>
+  </div>
+</div>
+</div>
+
+<div className="col-12 ca-1">
+<div className={`card list-cards swing-in-top-fwd-5 ${isVisible ? 'visible' : ''}`}>
+  <div className='card-body cb1'>
+   <div>
+    <p>TV wall mounting/uninstallation - Above 40"</p>
+    </div>
+    <div>
+    <p>₹ 949</p>
+    </div>
+  </div>
+</div>
+</div>
+
+<div className="col-12 ca-1">
+<div className={`card list-cards swing-in-top-fwd-6 ${isVisible ? 'visible' : ''}`}>
+  <div className='card-body cb1'>
+   <div>
+    <p>TV wall mounting/installation - Below 40"</p>
+    </div>
+    <div>
+    <p>₹ 499</p>
+    </div>
+  </div>
+</div>
+</div>
+
+<div className="col-12 ca-1">
+<div className={`card list-cards swing-in-top-fwd-7 ${isVisible ? 'visible' : ''}`}>
+  <div className='card-body cb1'>
+   <div>
+    <p>TV Uninstallation Above 40"</p>
+    </div>
+    <div>
+    <p>₹ 499</p>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<div className="col-12 ca-1">
+<div className={`card list-cards swing-in-top-fwd-8 ${isVisible ? 'visible' : ''}`}>
+  <div className='card-body cb1'>
+   <div>
+    <p>TV Uninstallation Below 40"</p>
+    </div>
+    <div>
+    <p>₹ 399</p>
+    </div>
+  </div>
+</div>
+</div>
+
+<div className="col-12 ca-1">
+<div className={`card list-cards swing-in-top-fwd-9 ${isVisible ? 'visible' : ''}`}>
+  <div className='card-body cb1'>
+   <div>
+    <p>TV wall mounting/installation - Above 55"</p>
+    </div>
+    <div>
+    <p>₹ 899</p>
+    </div>
+  </div>
+</div>
+</div>
+
+<div className="col-12 ca-1">
+<div className={`card list-cards swing-in-top-fwd-10 ${isVisible ? 'visible' : ''}`}>
+  <div className='card-body cb1'>
+   <div>
+    <p>TV wall mounting/uninstallation - Above 55"</p>
+    </div>
+    <div>
+    <p>₹ 1499</p>
+    </div>
+  </div>
+</div>
+</div>
+
+<div className="col-12 ca-1">
+<div className={`card list-cards swing-in-top-fwd-11 ${isVisible ? 'visible' : ''}`}>
+  <div className='card-body cb1'>
+   <div>
+    <p>TV Uninstallation Above 55"</p>
+    </div>
+    <div>
+    <p>₹ 699</p>
+    </div>
+  </div>
+</div>
+</div>
+
+<div className="col-12 ca-1">
+<div className={`card list-cards swing-in-top-fwd-12 ${isVisible ? 'visible' : ''}`}>
+  <div className='card-body cb1'>
+   <div>
+    <p>TV wall mounting/installation - Below 75"</p>
+    </div>
+    <div>
+    <p>₹ 1049</p>
+    </div>
+  </div>
+</div>
+</div>
+
+<div className="col-12 ca-1">
+<div className={`card list-cards swing-in-top-fwd-13 ${isVisible ? 'visible' : ''}`}>
+  <div className='card-body cb1'>
+   <div>
+    <p>TV wall mounting/installation - Above 75"</p>
+    </div>
+    <div>
+    <p>₹ 1199</p>
+    </div>
+  </div>
+</div>
+</div>
+
+
+ </div>
+    <div className="container text-center c-1">
+    <div className="row">
+      <div className="col mb-3">
+      <Card className='cards' elevation={3}>
+      <CardContent>
+      <Rating name="read-only" value={5} readOnly />
+      <h5>Gopalakrishnan</h5>
+      <h6>Display Repacement</h6>
+      <p>Good Service</p>
+      </CardContent>
+      </Card>       
+      </div>
+
+      <div className="col mb-3">
+      <Card className='cards' elevation={3}>
+      <CardContent>
+      <Rating name="read-only" value={5} readOnly />
+      <h5>Manimegalai</h5>
+      <h6>Motherboard Repair</h6>
+      <p>Very Friendly</p>
+      </CardContent>
+      </Card>       
+      </div>
+
+      <div className="col mb-3">
+      <Card className='cards' elevation={3}>
+      <CardContent>
+      <Rating name="read-only" value={5} readOnly />
+      <h5>Rishik</h5>
+      <p>Logo Stuck</p>
+      </CardContent>
+      </Card>       
+      </div>
+
+      <div className="col mb-3">
+      <Card className='cards' elevation={3}>
+      <CardContent>
+      <Rating name="read-only" value={5} readOnly />
+      <h5>Joshika</h5>
+      <p>Sound only problem</p>
+      </CardContent>
+      </Card>       
+      </div>
+
+      <div className="col mb-3">
+      <Card className='cards' elevation={3}>
+      <CardContent>
+      <Rating name="read-only" value={5} readOnly />
+      <h5>Thanushka</h5>
+      <p>Lines in the picture</p>
+      </CardContent>
+      </Card>       
+      </div>
+
+
+     
+      
+  </div>

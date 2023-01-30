@@ -1,0 +1,54 @@
+<!-- <footer class="site-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-6">
+        <h6>About</h6>
+        <p class="text-justify">Ramana Electronics is a leading provider of electronic device repairs, maintenance, and
+          support services. We specialize in providing top-notch repair services for Led TVs, laptops, desktops,
+          tablets, and more. Our experienced and certified technicians can handle any repair job, from simple to
+          complex. We guarantee fast and reliable service, competitive prices, and the highest quality of work.</p>
+      </div>
+
+      <div class="col-xs-6 col-md-3">
+        <h6></h6>
+        <ul class="footer-links">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-3">
+        <h6>Quick Links</h6>
+        <ul class="footer-links">
+          <li><a href="">Contact Us</a></li>
+          <li><a href="./Terms.js">Terms & Conditions</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-sm-6 col-xs-12">
+        <p class="copyright-text">Copyright &copy; 2023 Ramana Electronics. All Rights Reserved.</p>
+      </div>
+
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <ul class="social-icons">
+          <li><a class="facebook" href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+          <li><a class="telegram" href="#"><i class="fa-brands fa-telegram"></i></a></li>
+          <li><a class="instagram" href="#"><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a class="phone" href="#"><i class="fa-solid fa-phone"></i></a></li>
+          <li><a class="gmail" href="#"><i class="fa-solid fa-envelope"></i></a></li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+</footer> -->
