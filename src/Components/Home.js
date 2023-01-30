@@ -51,7 +51,18 @@ export default function HOME() {
     
   return (
     <div>
+    <div className='banner-contain'>
     <img className='gif' src="/assets/led tv service.gif" />
+    <div className='banner-text'>
+    <p className='tracking-in-expand'>RAMANA ELECTRONICS</p>
+    </div>
+    <div className='banner-text-2'>
+    <p className='focus-in-expand '>-AUTHORIZED SERVICE CENTER-</p>
+    </div>
+    <div className='banner-text-3'>
+    <p className='text-focus-in'>LED TV SERVICE</p>
+    </div>
+    </div>
  <CommonIssues />
  <OutMotto />
  <OurTieups />

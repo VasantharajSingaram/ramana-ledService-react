@@ -48,7 +48,18 @@ function useScroll() {
     
     return (
       <div>
+      <div className='banner-contain'>
       <img className='gif' src="/assets/computer service.gif" />
+      <div className='banner-text'>
+      <p className='tracking-in-expand'>RAMANA ELECTRONICS</p>
+      </div>
+      <div className='banner-text-2'>
+      <p className='focus-in-expand '>-AUTHORIZED SERVICE CENTER-</p>
+      </div>
+      <div className='banner-text-3'>
+      <p className='text-focus-in'>COMPUTER SERVICE</p>
+      </div>
+      </div>
    <CommonIssues />
    <OutMotto />
    <OurTieups />
