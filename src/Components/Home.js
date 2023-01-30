@@ -51,9 +51,7 @@ export default function HOME() {
     
   return (
     <div>
-    <Player autoPlay loop muted>
-    <source src="assets/video1.mp4" />
-  </Player>
+    <img src="/assets/computer service.gif" />
  <CommonIssues />
  <OutMotto />
  <OurTieups />
