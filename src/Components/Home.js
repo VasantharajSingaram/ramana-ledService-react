@@ -495,7 +495,7 @@ function CustomerReview(){
       <Card className='cards s2' elevation={3}>
       <CardContent>
      
-      <h5>Joshika</h5>
+      <h5>Josika</h5>
       <hr></hr>
       <h6>Sound only problem</h6>
       <p>Best service</p>
