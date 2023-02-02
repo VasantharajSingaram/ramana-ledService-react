@@ -210,7 +210,7 @@ function ServiceList(){
   const [serviceList, setServiceList] = useState([]);
 const getServiceList = () => {
 
-      fetch(`https://63d139433f08e4a8ff933a88.mockapi.io/ledApi/`, {
+      fetch(`https://63db670ab8e69785e48142c6.mockapi.io/RamanaAPI/`, {
         method: 'GET',
       })
           .then((response) => response.json())
@@ -222,7 +222,7 @@ useEffect(() => getServiceList(), []);
 
 const deletePrice = (id) => {
   // console.log("Deleting price", id);
-  fetch(`https://63d139433f08e4a8ff933a88.mockapi.io/ledApi/${id}`, {
+  fetch(`https://63db670ab8e69785e48142c6.mockapi.io/RamanaAPI/${id}`, {
     method: 'DELETE',
   })
       .then((data) => getServiceList())
