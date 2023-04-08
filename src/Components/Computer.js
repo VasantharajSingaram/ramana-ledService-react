@@ -265,8 +265,8 @@ function useScroll() {
         <Card className='cards' elevation={3}>
         <CardContent>
         <img src='assets/30days.gif' width="150" />
-        <h5>30 Days Warranty</h5>
-        <p>We offer 30 days warranty on all appliance services.</p>
+        <h5>2 Years Warranty</h5>
+        <p>We offer Two years service warranty.</p>
         </CardContent>
         </Card>       
         </div>
