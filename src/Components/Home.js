@@ -365,7 +365,7 @@ function OutMotto(){
       <Card className='cards' elevation={3}>
       <CardContent>
       <img src='assets/30days.gif' width="150" />
-      <h5>Two Years Warranty</h5>
+      <h5>2 Years Warranty</h5>
       <p>We offer Two years of service warranty.</p>
       </CardContent>
       </Card>       
