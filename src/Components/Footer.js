@@ -41,6 +41,7 @@ export function Footer() {
         <div className="row">
           <div className="col-md-8 col-sm-6 col-xs-12">
             <p className="copyright-text">Copyright &copy; 2023 Ramana Electronics. All Rights Reserved.</p>
+                <p>Since 1999</p>
           </div>
 
           <div className="col-md-4 col-sm-6 col-xs-12">
