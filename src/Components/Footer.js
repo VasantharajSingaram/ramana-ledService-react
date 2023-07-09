@@ -8,10 +8,7 @@ export function Footer() {
         <div className="row">
           <div className="col-sm-12 col-md-6">
             <h6>About</h6>
-            <p className="text-justify">Ramana Electronics is a leading provider of electronic device repairs, maintenance, and
-              support services. We specialize in providing top-notch repair services for Led TVs, laptops, desktops,
-              tablets, and more. Our experienced and certified technicians can handle any repair job, from simple to
-              complex. We guarantee fast and reliable service, competitive prices, and the highest quality of work.</p>
+            <p className="text-justify">In 1999, Ramana Electronics began its journey as a leading provider of electronic device repairs, maintenance, and support services. We initially specialized in providing top-notch repair services for CRT TVs, laptops, desktops, and other electronic devices available at that time. Over the years, we have adapted to technological advancements and now excel in repairing modern LED TVs, laptops, tablets, and more. With our experienced and certified technicians, we continue to guarantee fast and reliable service, competitive prices, and the highest quality of work since our inception in 1999.</p>
           </div>
 
           <div className="col-xs-6 col-md-3">
