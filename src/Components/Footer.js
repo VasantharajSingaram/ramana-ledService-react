@@ -48,7 +48,7 @@ export function Footer() {
               <li><a className="instagram" href="https://www.instagram.com/ramanaelectronics/" target="_blank"><i className="fa-brands fa-instagram"></i></a></li>
               <li><a className="phone" href="tel:9962424996"><i className="fa-solid fa-phone"></i></a></li>
               <li><a className="gmail" href="mailto:ramanaelectronicsolution@gmail.com" target="_blank"><i className="fa-solid fa-envelope"></i></a></li>
-
+              <li><a className="jobCard" href="https://ramanajobcard.netlify.app/login.html" target="_blank"><FontAwesomeIcon icon="fa-solid fa-user" /></li>
             </ul>
           </div>
         </div>
